@@ -1,0 +1,164 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    transition: all .3s;
+}
+
+body.scroll header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#header-wrap {
+    padding: 6px 8px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+/* 로고 영역 */
+.logo-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.img-wrap {
+    width: 100px;
+}
+
+.img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-wrap+h1 {
+    margin: 0 10px 0 0;
+    color: #8B6EAA;
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(10%);
+}
+
+/* 아이콘 영역 */
+.menu-wrap {
+    display: inline;
+}
+
+.menu-icon {
+    display: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/* 메뉴 영역 */
+.gnb {
+    display: flex;
+    gap: 12px;
+}
+
+.gnb li a {
+    display: block;
+    padding: 5px;
+    font-weight: 500;
+    color: #7e56a9;
+}
+
+.gnb li a:hover {
+    color: #fe962d;
+    transform: scale(1.3);
+}
+
+.archive_introduction {
+    height: 100vh;
+    background: red;
+}
+
+@media (max-width: 740px) {
+    #header-wrap {
+        flex-direction: column;
+    }
+
+    .img-wrap {
+        transition: .3s;
+    }
+
+    .gnb {
+        margin-top: 5px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    #header-wrap {
+        flex-direction: row;
+        align-items: start;
+        padding: 5px 4px;
+        margin: 0 5%;
+    }
+
+    .logo-wrap {
+        display: flex;
+    }
+
+    .img-wrap {
+        width: 50px;
+        transition: .3s;
+    }
+
+    .img-wrap+h1 {
+        font-size: 14px;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon.active {
+        background-color: rgba(211, 211, 211, 0.5);
+        border: 1px solid gray;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .menu-icon:hover {
+        background-color: rgba(211, 211, 211, 0.5);
+        border: 1px solid black;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .menu-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .menu-sidebar {
+        width: 100px;
+        background: rgb(234, 234, 234);
+        border-radius: 5px 0 5px 5px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .gnb {
+        display: block;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 300px) {
+    .img-wrap+h1 {
+        font-size: 10px;
+        transition: .3s;
+    }
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Sentiment Archive</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/home/home.css">
+</head>
+
+<body>
+    <!-- 헤더 영역 -->
+    <header>
+        <div id="header-wrap">
+            <a href="./home.html" class="logo-wrap">
+                <div class="img-wrap">
+                    <img src="./img/logo.png" alt="logo-img">
+                </div>
+                <h1>애니 감성 아카이브</h1>
+            </a>
+
+            <div class="menu-wrap">
+                <button id="menu-icon" class="menu-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+
+                <nav id="menu-sidebar" class="menu-sidebar hide">
+                    <ul class="gnb">
+                        <li><a id="top" href="#home">HOME</a></li>
+                        <li><a id="sec-1" href="#archive_introduction">아카이브소개</a></li>
+                        <li><a id="sec-2" href="#a_famous_line">명대사</a></li>
+                        <li><a id="sec-3" href="#ost">OST</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- 메인 영역 -->
+    <main id="main">
+        <!-- 환영 영역 -->
+        <section id="home" class="sec-1">
+            <div class="home-wrap">
+                <div class="home-inner">
+                    <div class="sec-1-text">
+                        <h2>어서오세요, <br>애니메이션의 세계로!</h2>
+                        <p>명대사와 오프닝·엔딩으로 다시 만나는 추억, 지금 바로 함께하세요.</p>
+                    </div>
+                </div>
+
+                <a class="home-down_arrow" href="#archive_introduction">
+                    <span></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 아카이브 소개 영역 -->
+        <section id="archive_introduction" class="sec-2">
+            <div id="archive_introduction-wrap" class="sec-wrap">
+                <div id="archive_introduction-inner" class="sec-inner">
+                    <div id="sec-2-text" class="sec-text">
+                        <h2>01. 애니 아카이브 소개</h2>
+                        <p>
+                            애니 아카이브는 애니메이션 속 명대사와
+                            오프닝·엔딩 곡을 모아 감성을 다시 느낄 수 있는 공간입니다.
+                            오타쿠들이 함께 추억을 공유하고 열정을 되살리는 작은 성지로,
+                            당신이 사랑한 순간들을 언제든 다시 만나보세요.
+                        </p>
+                        <div id="sec-2-hashtags" class="sec-2-hashtags">
+                            <ul>
+                                <li>#애니메이션</li>
+                                <li>#명대사</li>
+                                <li>#오타쿠 감성</li>
+                                <li>#추억</li>
+                                <li>#감동</li>
+                                <li>#오프닝/엔딩 OST</li>
+                                <li>#컬렉션</li>
+                                <li>#태마곡</li>
+                                <li>#명곡</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="sec-2-img-wrap" class="sec-img-wrap">
+                        <div id="sec-2-img" class="img-div">
+                            <img src="./img/asa-asa.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 명대사 소개 영역 -->
+        <section id="a_famous_line" class="sec-3">
+            <div id="a_famous_line-wrap" class="sec-wrap">
+                <div id="a_famous_line-inner" class="sec-inner">
+                    <div id="sec-3-img-wrap" class="sec-img-wrap">
+                        <div id="sec-3-img" class="img-div">
+                            <img src="./img/asa-fa.png" alt="img">
+                        </div>
+                    </div>
+
+                    <div id="sec-3-text" class="sec-text">
+                        <h2>02. 애니 명대사 아카이브</h2>
+                        <p>
+                            애니메이션 속에서 마음을 울린 명대사들을 모아둔 공간입니다.
+                            캐릭터의 목소리와 함께 떠오르는 장면을 다시 느끼며,
+                            감동과 추억을 되살려보세요. 당신이 사랑한 순간들이
+                            이곳에서 다시 살아납니다.
+                        </p>
+                        <button id="sec-buttoon" type="button">
+                            <a href="famous_line.html">명대사 아카이브 가기 ></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ost 소개 영역 -->
+        <section id="ost" class="sec-4">
+            <div id="ost-wrap" class="sec-wrap">
+                <div id="ost-inner" class="sec-inner">
+                    <div id="sec-4-text" class="sec-text">
+                        <h2>03. 애니 OST 아카이브</h2>
+                        <p>
+                            애니메이션의 분위기를 완성하는 오프닝과 엔딩 곡을 모아둔 공간입니다.
+                            설레는 시작과 여운 가득한 마무리, 그 멜로디 속에서 다시금 감성을 채워보세요.
+                            당신의 플레이리스트에 잊지 못할 애니 명곡을 더해드립니다.
+                        </p>
+                        <button id="sec-buttoon" type="button">
+                            <a href="ost.html">OST 아카이브 가기 ></a>
+                        </button>
+                    </div>
+
+                    <div id="sec-4-img-wrap" class="sec-img-wrap">
+                        <div id="sec-4-img" class="img-div">
+                            <img src="./img/asa-sing.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 퓨터 영역 -->
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer_top">
+                <div class="logo-wrap">
+                    <div class="logo-inner">
+                        <div class="img-wrap">
+                            <img src="./img/logo.png" alt="logo-img">
+                        </div>
+                        <h1>애니 감성 아카이브</h1>
+                    </div>
+                </div>
+
+                <div class="faq">
+                    <div class="tel">
+                        <h2>문의하기 ⬇️</h2>
+                        <div class="faq-answer">
+                            <div class="name-wrap">
+                                <label for="name" class="answer-name-wrap">이름</label>
+                                <input id="name" class="answer-name" type="text" placeholder="ex) 홍길동"><br>
+                            </div>
+                            <div class="email-wrap">
+                                <label for="email" class="answer-email-wrap">이메일 </label>
+                                <input id="email" class="answer-email" type="email" placeholder="ex) 010-1234-5678"><br>
+                            </div>
+                            <div class="textarea-wrap">
+                                <label for="textarea" class="answer-textarea-wrap">문의 내용</label>
+                                <textarea id="textarea" name="textarea"></textarea><br>
+                            </div>
+                            <button class="tel-send"><a href="#">보내기</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="bottom">
+                <p>© 2026 애니 아카이브 | 감성을 기록하는 공간<br>
+                    HOME | 아카이브소개 | 명대사 | OST<br>
+                    “당신이 사랑한 순간들을 다시 만나는 곳”<br>
+                    문의: 공식 SNS 또는 DM으로 연락해주세요
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuIcon = document.querySelector("#menu-icon");
+        const sidebar = document.querySelector("#menu-sidebar");
+
+        menuIcon.addEventListener("click", () => {
+            sidebar.classList.toggle("hide");
+            menuIcon.classList.toggle("active");
+        });
+
+        const body = document.querySelector("body");
+        const header = document.querySelector("header");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= 100) {
+                body.classList.add('scroll')
+            } else {
+                body.classList.remove('scroll')
+            }
+        })
+    </script>
+</body>
+
+</html>

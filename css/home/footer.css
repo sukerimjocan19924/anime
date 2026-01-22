@@ -1,0 +1,96 @@
+.footer-wrap {
+    background-color: rgba(187, 160, 3, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    /* border: 2px solid red; */
+}
+
+.logo-wrap {
+    display: flex;
+    align-items: end;
+}
+
+.logo-inner {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* 문의하기 */
+.faq {
+    width: 40%;
+    margin: 2%;
+}
+
+.tel {
+    margin: 2%;
+}
+
+.tel h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+
+.faq-answer {
+    padding: 0 10%;
+}
+
+
+.name-wrap,
+.email-wrap,
+.textarea-wrap {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.answer-name-wrap,
+.answer-email-wrap,
+.answer-textarea-wrap {
+    padding: 5px;
+    margin-right: 5px;
+    background: wheat;
+    border-radius: 10px;
+}
+
+.answer-name-wrap {
+    padding: 4px 27px;
+}
+
+.answer-email-wrap {
+    padding: 4px 20px;
+}
+
+.answer-textarea-wrap {
+    padding: 5px 10px;
+}
+
+.tel-send {
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.hr {
+    width: 80%;
+    height: 1px;
+    background: wheat;
+}
+
+.bottom {
+    width: 80%;
+    padding: 1%;
+}
+
+.bottom {
+    line-height: 22px;
+}
